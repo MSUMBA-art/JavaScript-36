@@ -13,7 +13,7 @@ for (var eachColor of colors) {
 }*/
 
 // working with strings in for loop
-var myString = 'Here I  am testing a string';
+/*var myString = 'Here I  am testing a string';
 
 for (var i = 0; i < myString.length; i++) {
     console.log(myString);
@@ -22,3 +22,13 @@ for (var i = 0; i < myString.length; i++) {
 for (var eachLetter of myString) {
     console.log(eachLetter);
 }
+*/
+
+var i = 1;
+var text = '';
+
+while (i < 11) {
+    text += `The incrementor is ${i}, the incrementor squared is ${i * i}'\n`
+    i++
+}
+console.log(text);
